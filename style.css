@@ -1,0 +1,131 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color:#fbdebc;
+    }
+* {
+    font-family: "Vesper Libre", serif;
+}
+h1, h3 {
+    font-family: "Vesper Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: rgba(251, 222, 188, 0.5);
+    color: #000000;
+    opacity: 0;
+
+}
+  
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Vesper Libre", serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.par {
+    position:  absolute;
+    top: 120px;
+    left: 40px;
+    opacity: 0;
+    background-color: rgba(251, 222, 188, 0.7);
+}
+
+.btn {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    opacity: 0;
+    font-family: "Vesper Libre", serif;
+    border: none;
+    background-color: rgba(251, 222, 188, 0.7);
+
+}
+.bttn {
+    font-family: "Vesper Libre", serif;
+    border-radius: 40px;
+    background-color: rgba(247, 190, 144, 0.7);
+    flex: 1;
+}
+.selected {
+    flex:4;
+    opacity: 1;
+}
+
+.selected h4 {
+    font-size: 30px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+.selected .par {
+    font-size: 20px;
+    transition: all 1s ease-in;
+    opacity: 1;
+}
+
+label {
+    font-family: "Vesper Libre", serif;
+    font-size: 30px;
+
+}
+
+.selected .btn {
+    font-size: 30px;
+    transition: all 1s ease-in;
+    border-radius: 40px;
+    opacity: 1;
+}
+.text-input {
+    background-color: #fbdebc;
+    border: none;
+    padding: 12px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+  .one {
+    background-image: url('https://images.unsplash.com/photo-1488034976201-ffbaa99cbf5c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+    
+    .two {
+    background-image: url('https://images.unsplash.com/photo-1616418625298-baef98bc34f8?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+    
+    .three {
+    background-image: url('https://images.unsplash.com/photo-1531586024505-b040066c2d5b?q=80&w=1915&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+    
+    .four {
+    background-image: url('https://images.unsplash.com/photo-1496136998968-81293d01179b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+    
+    .five {
+    background-image: url('https://images.unsplash.com/photo-1486693326701-1ea88c6e2af3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+    
+    .six {
+    background-image: url('https://images.unsplash.com/photo-1574856049959-d3134a3e592f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    }
+
+   
