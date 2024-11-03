@@ -1,0 +1,104 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color:#fbdebc;
+    }
+* {
+    font-family: "Vesper Libre", serif;
+}
+h1, h3 {
+    font-family: "Vesper Libre", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    
+}
+
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: rgba(251, 222, 188, 0.5);
+    color: #000000;
+    opacity: 0;
+
+}
+  
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    font-family: "Vesper Libre", serif;
+    flex: 1;
+    margin: 5px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.par {
+    position:  absolute;
+    top: 120px;
+    left: 40px;
+    opacity: 0;
+    background-color: rgba(251, 222, 188, 0.7);
+}
+
+.btn {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    opacity: 0;
+    font-family: "Vesper Libre", serif;
+    border: none;
+    background-color: rgba(251, 222, 188, 0.7);
+
+}
+.bttn {
+    font-family: "Vesper Libre", serif;
+    border-radius: 40px;
+    background-color: rgba(247, 190, 144, 0.7);
+    flex: 1;
+    border: none;
+}
+.button {
+    font-family: "Vesper Libre", serif;
+    background-color: rgb(43, 44, 41);
+    font-size: 30x;
+    color: white;
+    border: none;
+}
+
+label {
+    font-family: "Vesper Libre", serif;
+    font-size: 30px;
+
+}
+
+
+.text-input {
+    background-color: #fbdebc;
+    border: none;
+    padding: 12px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+
+}
+
+#pics {
+    width: 500px;
+
+}
